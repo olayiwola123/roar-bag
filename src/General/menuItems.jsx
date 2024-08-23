@@ -12,13 +12,6 @@ export const menuItems = [
     icon: <MdDashboard className="text-white" />,
     activeIcon: <MdDashboard className="text-tertiary" />,
   },
- 
-  // {
-  //   name: "Blog",
-  //   url: "/blogs",
-  //   icon: <FaBlog />,
-  //   activeIcon: <FaBlog className="text-tertiary" />,
-  // },
   {
     name: "Products",
     url: "/products",

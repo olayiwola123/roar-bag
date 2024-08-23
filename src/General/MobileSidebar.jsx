@@ -9,7 +9,8 @@ import { RiFileList3Fill } from "react-icons/ri";
 import { GrTransaction } from "react-icons/gr";
 import { CgProfile } from "react-icons/cg";
 import { IoMdHelpCircle } from "react-icons/io";
-import { menuItems } from "../General/menuItems";
+// import { menuItems } from "../General/menuItems";
+import { menuItems } from "./menuItems";
 import logo from '../assets/logo.png'
 
 const MobileSidebar = ({ isOpen, handleClose }) => {
