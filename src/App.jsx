@@ -63,6 +63,9 @@ import { AuthProvider } from "./context/AuthContext";
 import PrivateRoutes from "./components/PrivateRoutes";
 import Dashboard from "./Pages/Dashboard";
 import Products from "./Pages/Product";
+import AboutUs from "./components/inner/AboutUs";
+import Shop from "./components/inner/Shop";
+import Contact from "./components/inner/Contact";
 
 const App = () => {
   React.useEffect(() => {
@@ -81,11 +84,13 @@ const App = () => {
         <Routes>
           {/* Public Routes with NavWrapper */}
           <Route element={<NavWrapper />}>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/contact" element={<Company />} />
+          <Route path="/" element={<LandingPage />} />
+            <Route path="/shop" element={<Shop />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/media" element={<MediaCenter />} />
-            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/media-center" element={<MediaCenter />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/login" element={<Login />} />
           </Route>
 
           {/* Protected Routes without NavWrapper */}
