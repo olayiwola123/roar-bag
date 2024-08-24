@@ -1,5 +1,4 @@
 import React from "react";
-import Zoom from 'react-reveal/Zoom';
 import { MdCancel } from "react-icons/md";
 
 const SammyModal = ({ isOpen, onClose, children, theme, clickBackgroundToClose, modalClass }) => {
@@ -16,7 +15,7 @@ const SammyModal = ({ isOpen, onClose, children, theme, clickBackgroundToClose, 
 
      
 
-        <Zoom duration={300}>
+        {/* <Zoom duration={300}> */}
         <div
           className={`${
             theme === "dark" ? "bg-[#121212]" : "bg-white"
@@ -29,7 +28,6 @@ const SammyModal = ({ isOpen, onClose, children, theme, clickBackgroundToClose, 
           {/* Close button */}
         
         </div>
-        </Zoom>
       </div>
     </>
   );
