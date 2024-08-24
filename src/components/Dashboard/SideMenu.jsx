@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuthContext } from '../../context/AuthContext';
-import { menuItems } from '../../General/MenuItems';
+import { menuItems } from '../../General/menuItems';
 import logo from '../../assets/logo.png'
 export default function SideMenu() {
     const { token, logout, user } = useAuthContext();

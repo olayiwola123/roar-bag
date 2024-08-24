@@ -1,5 +1,4 @@
 import React from "react";
-// import { useAuthContext } from "../../context/AuthContext";
 import { Link, useLocation } from "react-router-dom";
 import { FaCoins, FaUserEdit, FaWallet } from "react-icons/fa";
 import { FaGift, FaHandshake } from "react-icons/fa6";
@@ -9,8 +8,7 @@ import { RiFileList3Fill } from "react-icons/ri";
 import { GrTransaction } from "react-icons/gr";
 import { CgProfile } from "react-icons/cg";
 import { IoMdHelpCircle } from "react-icons/io";
-// import { menuItems } from "../General/menuItems";
-import { menuItems } from "./menuItems";
+import { menuItems } from "../General/menuItems";
 import logo from '../assets/logo.png'
 
 const MobileSidebar = ({ isOpen, handleClose }) => {
