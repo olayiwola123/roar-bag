@@ -16,7 +16,7 @@ const Navbar = () => {
           <img
             src={Logo}
             alt="Portfolio Media Center Logo"
-            className="h-16 w-40 mr-3"
+            className="h-12 w-40 mr-3"
           />
         </div>
 

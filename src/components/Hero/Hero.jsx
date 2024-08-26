@@ -1,22 +1,25 @@
-import React, { useState, useEffect } from 'react';
-import Image1 from "../../assets/hero/hero1.avif"; 
+import React, { useState, useEffect } from "react";
+import Image1 from "../../assets/hero/hero1.avif";
 import Image2 from "../../assets/hero/hero2.avif";
 import Image3 from "../../assets/hero/hero.jpg";
 
 const content = [
   {
     text: "Discover the Perfect Bag for Every Occasion",
-    subtext: "Explore our collection of stylish and functional bags, designed to complement your unique style.",
+    subtext:
+      "Explore our collection of stylish and functional bags, designed to complement your unique style.",
     image: Image1,
   },
   {
-    text: "Carry Your World in Style",
-    subtext: "Our bags are crafted to provide both elegance and practicality.",
+    text: "Elevate Your Everyday: Carry Your World in Style",
+    subtext:
+      "Our bags are crafted to provide both elegance and practicality, perfect for the modern individual who wants to make a statement without compromising on functionality.",
     image: Image2,
   },
   {
     text: "Unleash Your Fashion Sense",
-    subtext: "Find the bag that matches your personality and enhances your wardrobe.",
+    subtext:
+      "Find the bag that matches your personality and enhances your wardrobe.",
     image: Image3,
   },
 ];
@@ -39,10 +42,16 @@ const Hero = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6 slide-in">
             {content[index].text}
           </h1>
-          <p className="text-gray-600 text-lg mb-6 slide-in" style={{ animationDelay: '0.5s' }}>
+          <p
+            className="text-gray-600 text-lg mb-6 slide-in"
+            style={{ animationDelay: "0.5s" }}
+          >
             {content[index].subtext}
           </p>
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition duration-300 slide-in" style={{ animationDelay: '1s' }}>
+          <button
+            className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition duration-300 slide-in"
+            style={{ animationDelay: "1s" }}
+          >
             Shop Now
           </button>
         </div>
@@ -59,8 +68,6 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
 
 // import React from 'react';
 // import Image3 from "../../assets/hero/hero1.avif";
