@@ -5,8 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#fea928",
-        secondary: "#ed8900",
+        primary: "#2C3639", // Rich dark gray
+        secondary: "#3F4E4F", // Muted green-gray
+        accent: "#A27B5C", // Warm brown
+        neutral: "#DCD7C9", // Soft cream
       },
       container: {
         center: true,
